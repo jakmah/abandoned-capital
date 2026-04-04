@@ -9,11 +9,11 @@ export default function Logo({
 }) {
   return (
     <Image
-      src="/logo.png"
+      src="/logo-light.png"
       alt="Abandoned Capital"
       width={size}
       height={Math.round(size * 0.75)}
-      className={`object-contain ${className}`}
+      className={`object-contain invert ${className}`}
       priority
     />
   );
