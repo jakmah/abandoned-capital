@@ -13,7 +13,6 @@ const aiLogos = [
   { file: "/logos/ai-logo-1.png", name: "AI V1 — Gold Monogram" },
   { file: "/logos/ai-logo-2.png", name: "AI V2 — Hexagonal Icon" },
   { file: "/logos/ai-logo-3.png", name: "AI V3 — Abstract A" },
-  { file: "/logos/ai-logo-4.png", name: "AI V4 — Bull / Arrow" },
 ];
 
 export default function LogosPage() {
