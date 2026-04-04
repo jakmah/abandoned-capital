@@ -1,0 +1,9 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Original: Hexagon + Diamond + A -->
+  <rect width="200" height="200" fill="#0a0a0a"/>
+  <path d="M100 15L180 55V135L100 185L20 135V55L100 15Z" stroke="url(#g1)" stroke-width="2" fill="none"/>
+  <path d="M100 40L155 90L100 150L45 90L100 40Z" stroke="url(#g1)" stroke-width="1.5" fill="none" opacity="0.5"/>
+  <path d="M72 130L100 60L128 130M80 110H120" stroke="url(#g1)" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <circle cx="100" cy="162" r="3" fill="#c9a84c"/>
+  <defs><linearGradient id="g1" x1="20" y1="15" x2="180" y2="185"><stop offset="0%" stop-color="#c9a84c"/><stop offset="50%" stop-color="#e2ca7a"/><stop offset="100%" stop-color="#c9a84c"/></linearGradient></defs>
+</svg>

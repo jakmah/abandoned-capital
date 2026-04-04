@@ -1,0 +1,14 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Circle frame + stylized AC -->
+  <rect width="200" height="200" fill="#0a0a0a"/>
+  <!-- Outer circle -->
+  <circle cx="100" cy="100" r="80" stroke="#c9a84c" stroke-width="1.5" fill="none"/>
+  <!-- Inner circle -->
+  <circle cx="100" cy="100" r="65" stroke="#c9a84c" stroke-width="0.5" fill="none" opacity="0.3"/>
+  <!-- Stylized A -->
+  <path d="M70 145L100 55L130 145" stroke="url(#g4)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <line x1="80" y1="118" x2="120" y2="118" stroke="#c9a84c" stroke-width="2" stroke-linecap="round"/>
+  <!-- Dot accent at peak -->
+  <circle cx="100" cy="48" r="3" fill="#c9a84c"/>
+  <defs><linearGradient id="g4" x1="70" y1="55" x2="130" y2="145"><stop offset="0%" stop-color="#e2ca7a"/><stop offset="100%" stop-color="#c9a84c"/></linearGradient></defs>
+</svg>

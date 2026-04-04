@@ -1,0 +1,16 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Trading chart forming letter A -->
+  <rect width="200" height="200" fill="#0a0a0a"/>
+  <!-- Chart line rising to form A peak -->
+  <polyline points="30,155 50,140 65,145 80,120 90,125 100,50 110,125 120,120 135,145 150,140 170,155" stroke="url(#g6)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <!-- A crossbar -->
+  <line x1="82" y1="118" x2="118" y2="118" stroke="#c9a84c" stroke-width="1.5" stroke-linecap="round" opacity="0.7"/>
+  <!-- Glow at peak -->
+  <circle cx="100" cy="50" r="4" fill="#c9a84c" opacity="0.6"/>
+  <circle cx="100" cy="50" r="2" fill="#e2ca7a"/>
+  <!-- Subtle grid -->
+  <line x1="30" y1="100" x2="170" y2="100" stroke="#c9a84c" stroke-width="0.3" opacity="0.2"/>
+  <line x1="30" y1="130" x2="170" y2="130" stroke="#c9a84c" stroke-width="0.3" opacity="0.2"/>
+  <line x1="30" y1="70" x2="170" y2="70" stroke="#c9a84c" stroke-width="0.3" opacity="0.2"/>
+  <defs><linearGradient id="g6" x1="30" y1="100" x2="170" y2="100"><stop offset="0%" stop-color="#a08030"/><stop offset="50%" stop-color="#e2ca7a"/><stop offset="100%" stop-color="#a08030"/></linearGradient></defs>
+</svg>

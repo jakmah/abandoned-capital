@@ -1,0 +1,15 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Shield + AC monogram -->
+  <rect width="200" height="200" fill="#0a0a0a"/>
+  <!-- Shield shape -->
+  <path d="M100 20L170 50V120C170 150 140 175 100 190C60 175 30 150 30 120V50L100 20Z" stroke="url(#g2)" stroke-width="2" fill="none"/>
+  <!-- Inner shield line -->
+  <path d="M100 35L155 58V118C155 142 132 162 100 175C68 162 45 142 45 118V58L100 35Z" stroke="#c9a84c" stroke-width="0.5" fill="none" opacity="0.3"/>
+  <!-- A letter -->
+  <path d="M68 140L90 65L100 90" stroke="url(#g2)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <!-- C letter integrated -->
+  <path d="M100 90L110 65L132 140" stroke="url(#g2)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <!-- Crossbar -->
+  <line x1="76" y1="118" x2="124" y2="118" stroke="#c9a84c" stroke-width="1.5" opacity="0.6"/>
+  <defs><linearGradient id="g2" x1="30" y1="20" x2="170" y2="190"><stop offset="0%" stop-color="#c9a84c"/><stop offset="50%" stop-color="#e2ca7a"/><stop offset="100%" stop-color="#c9a84c"/></linearGradient></defs>
+</svg>

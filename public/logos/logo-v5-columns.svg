@@ -1,0 +1,19 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Neoclassical: Columns + pediment (finance/capital) -->
+  <rect width="200" height="200" fill="#0a0a0a"/>
+  <!-- Pediment (triangle) -->
+  <path d="M35 85L100 35L165 85" stroke="#c9a84c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <!-- Top beam -->
+  <line x1="35" y1="85" x2="165" y2="85" stroke="#c9a84c" stroke-width="2"/>
+  <!-- Columns -->
+  <line x1="55" y1="88" x2="55" y2="150" stroke="#c9a84c" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="85" y1="88" x2="85" y2="150" stroke="#c9a84c" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="115" y1="88" x2="115" y2="150" stroke="#c9a84c" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="145" y1="88" x2="145" y2="150" stroke="#c9a84c" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Base -->
+  <line x1="35" y1="153" x2="165" y2="153" stroke="#c9a84c" stroke-width="2"/>
+  <!-- Small A in pediment -->
+  <path d="M92 78L100 55L108 78M95 73H105" stroke="#e2ca7a" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <!-- Subtitle line -->
+  <line x1="70" y1="168" x2="130" y2="168" stroke="#c9a84c" stroke-width="0.8" opacity="0.4"/>
+</svg>
