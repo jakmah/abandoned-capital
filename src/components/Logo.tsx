@@ -8,39 +8,23 @@ export default function Logo({ className = "", size = 48 }: { className?: string
       xmlns="http://www.w3.org/2000/svg"
       className={className}
     >
-      {/* Outer hexagonal frame */}
+      {/* Simplified geometric mark — triangle/mountain with crossbar (stylized A) */}
       <path
-        d="M60 8L108 32V80L60 112L12 80V32L60 8Z"
-        stroke="url(#goldGrad)"
+        d="M60 16L100 96H20L60 16Z"
+        stroke="#B8976A"
         strokeWidth="2"
         fill="none"
       />
-      {/* Inner diamond */}
-      <path
-        d="M60 24L92 52L60 88L28 52L60 24Z"
-        stroke="url(#goldGrad)"
+      <line
+        x1="36"
+        y1="72"
+        x2="84"
+        y2="72"
+        stroke="#B8976A"
         strokeWidth="1.5"
-        fill="none"
-        opacity="0.6"
-      />
-      {/* Central A letterform */}
-      <path
-        d="M44 76L60 36L76 76M50 64H70"
-        stroke="url(#goldGrad)"
-        strokeWidth="3"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        fill="none"
       />
       {/* Accent dot */}
-      <circle cx="60" cy="96" r="2.5" fill="#c9a84c" />
-      <defs>
-        <linearGradient id="goldGrad" x1="12" y1="8" x2="108" y2="112" gradientUnits="userSpaceOnUse">
-          <stop offset="0%" stopColor="#c9a84c" />
-          <stop offset="50%" stopColor="#e2ca7a" />
-          <stop offset="100%" stopColor="#c9a84c" />
-        </linearGradient>
-      </defs>
+      <circle cx="60" cy="106" r="2" fill="#B8976A" />
     </svg>
   );
 }

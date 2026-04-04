@@ -14,8 +14,8 @@ export default function LeadershipSection() {
 
         <div className="max-w-2xl mx-auto text-center">
           {/* CEO placeholder avatar */}
-          <div className="w-28 h-28 mx-auto mb-8 border border-gold/20 rounded-full flex items-center justify-center bg-charcoal/50">
-            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" stroke="#c9a84c" strokeWidth="1">
+          <div className="w-28 h-28 mx-auto mb-8 border border-gold/20 rounded-full flex items-center justify-center bg-navy/50">
+            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" stroke="#B8976A" strokeWidth="1">
               <circle cx="20" cy="14" r="7" />
               <path d="M6 36C6 28 12 24 20 24C28 24 34 28 34 36" />
             </svg>

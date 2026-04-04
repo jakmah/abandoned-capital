@@ -2,9 +2,9 @@ export default function TradingSection() {
   const strategies = [
     {
       icon: (
-        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" stroke="#c9a84c" strokeWidth="1.2">
+        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" stroke="#B8976A" strokeWidth="1.2">
           <polyline points="4,24 10,16 16,20 22,8 28,12" />
-          <circle cx="28" cy="12" r="2" fill="#c9a84c" />
+          <circle cx="28" cy="12" r="2" fill="#B8976A" />
         </svg>
       ),
       title: "Systematic Trading",
@@ -12,7 +12,7 @@ export default function TradingSection() {
     },
     {
       icon: (
-        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" stroke="#c9a84c" strokeWidth="1.2">
+        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" stroke="#B8976A" strokeWidth="1.2">
           <rect x="4" y="14" width="5" height="14" rx="1" />
           <rect x="13.5" y="8" width="5" height="20" rx="1" />
           <rect x="23" y="4" width="5" height="24" rx="1" />
@@ -23,7 +23,7 @@ export default function TradingSection() {
     },
     {
       icon: (
-        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" stroke="#c9a84c" strokeWidth="1.2">
+        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" stroke="#B8976A" strokeWidth="1.2">
           <circle cx="16" cy="16" r="12" />
           <path d="M16 4C16 4 20 12 20 16C20 20 16 28 16 28" />
           <path d="M16 4C16 4 12 12 12 16C12 20 16 28 16 28" />
@@ -35,7 +35,7 @@ export default function TradingSection() {
     },
     {
       icon: (
-        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" stroke="#c9a84c" strokeWidth="1.2">
+        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" stroke="#B8976A" strokeWidth="1.2">
           <path d="M6 28L6 12L12 12L12 28" />
           <path d="M13 28L13 6L19 6L19 28" />
           <path d="M20 28L20 16L26 16L26 28" />
@@ -47,7 +47,7 @@ export default function TradingSection() {
   ];
 
   return (
-    <section id="trading" className="py-32 px-6 bg-charcoal/50">
+    <section id="trading" className="py-32 px-6 bg-navy/50">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-20">
           <p className="text-gold/60 text-xs tracking-[0.5em] uppercase mb-4">
@@ -63,7 +63,7 @@ export default function TradingSection() {
           {strategies.map((s) => (
             <div
               key={s.title}
-              className="p-8 bg-[#0a0a0a]/60 border border-white/5 hover:border-gold/20 transition-all duration-500 group"
+              className="p-8 bg-[#0B1120]/60 border border-white/5 hover:border-gold/20 transition-all duration-500 group"
             >
               <div className="mb-5 opacity-60 group-hover:opacity-100 transition-opacity">
                 {s.icon}
