@@ -22,7 +22,7 @@ export default function LeadershipSection() {
           </div>
 
           <h3 className="text-xl tracking-[0.15em] uppercase text-white/80 mb-1">
-            Jakub Mahdal
+            George Powell
           </h3>
           <p className="text-gold/60 text-xs tracking-[0.4em] uppercase mb-8">
             Chief Executive Officer &amp; Ultimate Beneficial Owner
@@ -37,7 +37,7 @@ export default function LeadershipSection() {
 
           <div className="mt-10 flex justify-center gap-8">
             <a
-              href="mailto:jakub@abandoned.capital"
+              href="mailto:george@abandoned.capital"
               className="text-gold/50 hover:text-gold text-xs tracking-widest uppercase transition-colors"
             >
               Email

@@ -50,8 +50,8 @@ export default function ContactSection() {
                 CEO Direct
               </h3>
               <p className="text-white/50 text-sm">
-                <a href="mailto:jakub@abandoned.capital" className="hover:text-gold transition-colors">
-                  jakub@abandoned.capital
+                <a href="mailto:george@abandoned.capital" className="hover:text-gold transition-colors">
+                  george@abandoned.capital
                 </a>
               </p>
             </div>
