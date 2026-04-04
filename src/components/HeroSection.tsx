@@ -19,16 +19,9 @@ export default function HeroSection() {
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-gold/[0.03] rounded-full blur-3xl" />
 
       <div className="relative z-10 text-center px-6 max-w-4xl mx-auto">
-        <div className="flex justify-center mb-10">
-          <Logo size={100} />
+        <div className="flex justify-center mb-12">
+          <Logo size={280} />
         </div>
-
-        <h1 className="text-5xl md:text-7xl font-light tracking-[0.15em] uppercase mb-2">
-          <span className="text-gradient-gold">Abandoned</span>
-        </h1>
-        <h2 className="text-2xl md:text-3xl font-extralight tracking-[0.4em] uppercase text-white/40 mb-10">
-          Capital
-        </h2>
 
         <div className="w-20 h-px bg-gradient-to-r from-transparent via-gold to-transparent mx-auto mb-10 animate-pulse-line" />
 
