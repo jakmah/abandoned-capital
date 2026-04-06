@@ -3,8 +3,22 @@ import Logo from "./Logo";
 export default function HeroSection() {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      {/* Background grid */}
-      <div className="absolute inset-0 opacity-[0.03]">
+      {/* Video background */}
+      <video
+        autoPlay
+        muted
+        loop
+        playsInline
+        className="absolute inset-0 w-full h-full object-cover"
+      >
+        <source src="/hero-bg.mp4" type="video/mp4" />
+      </video>
+
+      {/* Dark overlay */}
+      <div className="absolute inset-0 bg-[#0B1120]/80" />
+
+      {/* Subtle grid */}
+      <div className="absolute inset-0 opacity-[0.02]">
         <div
           className="absolute inset-0"
           style={{
@@ -15,9 +29,6 @@ export default function HeroSection() {
         />
       </div>
 
-      {/* Radial glow */}
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-gold/[0.03] rounded-full blur-3xl" />
-
       <div className="relative z-10 text-center px-6 max-w-4xl mx-auto">
         <div className="flex justify-center mb-12">
           <Logo size={280} />
@@ -25,10 +36,10 @@ export default function HeroSection() {
 
         <div className="w-20 h-px bg-gradient-to-r from-transparent via-gold to-transparent mx-auto mb-10 animate-pulse-line" />
 
-        <p className="text-lg md:text-xl font-light text-white/50 tracking-wide max-w-2xl mx-auto leading-relaxed">
+        <p className="text-lg md:text-xl font-light text-white/60 tracking-wide max-w-2xl mx-auto leading-relaxed">
           Proprietary Principal Trading
         </p>
-        <p className="text-sm text-white/30 mt-3 tracking-widest uppercase">
+        <p className="text-sm text-white/35 mt-3 tracking-widest uppercase">
           George Town, Cayman Islands
         </p>
 
@@ -49,7 +60,7 @@ export default function HeroSection() {
       </div>
 
       {/* Bottom fade */}
-      <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-[#0B1120] to-transparent" />
+      <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-[#0B1120] to-transparent z-10" />
     </section>
   );
 }
